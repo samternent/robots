@@ -1,5 +1,5 @@
 //script for the bot program
-window.onload = function () {
+var Weapons = function () {
 
     // get DOM elements
     var stage = document.getElementById('stage'),
@@ -138,7 +138,7 @@ var Bot = function (myBot,stage,settings) {
             return Math.sqrt(xb + yb);
         },
         // check for bot
-        checkForBot = function () {
+        checkForBot = function () {2s
             var botBox = bounding(vision());
             var hits = [];
             for (var i=0;i<bots.length;i++) {
@@ -180,6 +180,3 @@ var Bot = function (myBot,stage,settings) {
     }
 
 };
-
-
-

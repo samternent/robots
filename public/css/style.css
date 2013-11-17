@@ -50,3 +50,13 @@ body {
 #enemyBot6 {
     background-color: orange;
 }
+
+
+#laserGun{
+    width: 5px;
+    height: 5px;
+    background: #000;
+    position: absolute;
+    border-radius: 50%;
+    transition: all .3s;
+}
