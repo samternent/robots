@@ -18,13 +18,13 @@ body {
     position: absolute;
     border: 1px solid #3d3d3d;
     border-right: 5px solid #2e2e2e;
-    -webkit-transition: all .3s;
+    /*-webkit-transition: all .3s;*/
     border-radius: 5px;
     box-shadow: -5px 0 10px  #3d3d3d;
 }
 .vision {
     position: absolute;
-    left: 100%;
+    left: -100%;
     top: -100%;
     opacity: 0.2;
     border-radius: 50px;
